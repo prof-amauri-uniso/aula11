@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoriaBebidaActivity">
+
+    <!--Este é o listview que irá ter as opções das bebidas que são vendidadas no local.
+    Reparem que não temos agora o atributo entries. Isso porque não utilizaremos os dados
+    fixos oriundos de um arquivo de recursos, mas sim de alguma fonte de dados. Inicialmente
+    nossa fonte de dados será a classe Bebida, mas depois será o nosso banco de dados SQLite.
+    Para os dois casos a situação -->
+    <ListView
+        android:id="@+id/lista_bebidas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

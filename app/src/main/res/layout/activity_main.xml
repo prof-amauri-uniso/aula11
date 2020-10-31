@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+    <!--Utilizamos o ImageView para exibir um logo da cafeteria-->
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_weight="0"
+        android:contentDescription="@string/logo"
+        android:src="@drawable/starbuzz_logo" />
+
+    <!--Um listview é um componente que nos permite listar vários itens de forma
+    organizada na tela. Em outras palavras, ele exibe uma lista de informações que viabiliza a navegação
+    pelo aplicativo. Com ele podemos listar itens estáticos, como os recursos de string
+    organizados em arrays, ou dinamicos, orinundos de alguma fonte dados. Nessa atividade estamos
+    usando uma lsita fixa de itens, na atividade de categoria veremos outras opções para
+    alimentar dados para o listview-->
+    <ListView
+        android:id="@+id/lista_opcoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/opcoes"/>
+
+</LinearLayout>

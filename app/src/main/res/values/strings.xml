@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"> Cafeteria Cursores!!</string>
+    <string name="logo">Logo Cafeteria</string>
+    <!--Podemos criar arrays de strings utilizando o arquivo de recursos de string-->
+    <string-array name="opcoes">
+        <!--Cada item fará parte do array-->
+        <item>Bebidas</item>
+        <item>Comida</item>
+        <item>Lojas </item>
+    </string-array>
+</resources>
